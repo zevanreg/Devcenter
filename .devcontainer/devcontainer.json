@@ -18,9 +18,7 @@
     				"ms-vscode.powershell",
     				"ms-azuretools.vscode-azurecli",
     				"ms-azuretools.vscode-bicep",
-    				"ms-vscode.azurecli",
-    				"ms-python.python",
-    				"prompt-flow.prompt-flow"
+    				"ms-vscode.azurecli"
     			]
         }
     }
