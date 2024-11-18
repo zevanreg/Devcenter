@@ -1,0 +1,27 @@
+{
+    "name": "DevCenter POC",
+  	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+    "features": {
+      "ghcr.io/devcontainers/features/azure-cli:1": {
+  			"installBicep": true,
+  			"version": "latest"
+  		},
+  		"ghcr.io/devcontainers/features/powershell:1": {
+  			"version": "latest",
+  			"modules": "az"
+  		}
+    },
+    "postCreateCommand": "echo 'Codespace created!'",
+    "customizations": {
+        "vscode": {
+    			"extensions": [
+    				"ms-vscode.powershell",
+    				"ms-azuretools.vscode-azurecli",
+    				"ms-azuretools.vscode-bicep",
+    				"ms-vscode.azurecli",
+    				"ms-python.python",
+    				"prompt-flow.prompt-flow"
+    			]
+        }
+    }
+}
